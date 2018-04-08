@@ -26,9 +26,8 @@ body {
 	.greeting {
 		font-size: 15rem;
 	}
-	.lLeft .lRight {
+	.lower {
 		text-align: center;
-		font-size: 4rem;
 	}
 }
 
