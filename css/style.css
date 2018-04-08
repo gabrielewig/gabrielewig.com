@@ -11,14 +11,13 @@ body {
 	font-size: 20rem;
 }
 
-.lLeft {
+.lower {
 	font-size: .8rem;
+} .lLeft {
 	text-align: left;
 } .lCenter {
-	font-size: .8rem;
 	text-align: center;
 } .lRight {
-	font-size: .8rem;
 	text-align: right;
 }
 
