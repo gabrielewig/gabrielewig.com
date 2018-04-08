@@ -2,23 +2,35 @@ body {
  	background-image: url(../img/bark0.JPG);
 	background-attachment: fixed;
 }
+
 .content {
 	background-color: rgba(255, 255, 255, .7);
 }
+
 .greeting {
 	font-size: 20rem;
 }
-#lower {
+
+.lLeft {
 	font-size: .8rem;
+	text-align: left;
+} .lCenter {
+	font-size: .8rem;
+	text-align: center;
+} .lRight {
+	font-size: .8rem;
+	text-align: right;
 }
+
 @media only screen and (max-width: 576px) {
 	.greeting {
 		font-size: 15rem;
 	}
-	#lower {
+	.lLeft .lRight {
 		text-align: center;
 	}
 }
+
 @media only screen and (max-width: 400px) {
 	.greeting {
 		font-size: 10rem;
