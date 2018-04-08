@@ -8,6 +8,9 @@ body {
 .greeting {
 	font-size: 20rem;
 }
+.lower {
+	font-size: 4rem;
+}
 .lLeft {
 	text-align: left;
 }
