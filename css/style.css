@@ -8,26 +8,18 @@ body {
 .greeting {
 	font-size: 20rem;
 }
-.lower {
+#lower {
 	font-size: .8rem;
-}
-.lLeft {
-	text-align: left;
-}
-.lCenter {
-	text-align: center;
-}
-.lRight {
-	text-align: right;
 }
 @media only screen and (max-width: 576px) {
 	.greeting {
 		font-size: 15rem;
 	}
-	.lower {
+	#lower {
 		text-align: center;
 	}
-} @media only screen and (max-width: 400px) {
+}
+@media only screen and (max-width: 400px) {
 	.greeting {
 		font-size: 10rem;
 	}
