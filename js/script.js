@@ -1,1 +1,1 @@
-//Main JavaScript file
+//Main JavaScript File
