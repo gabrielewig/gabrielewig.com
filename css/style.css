@@ -1,6 +1,8 @@
 body {
- 	background-image: url(../img/bark0.jpg);
+ 	background-image: url(../img/SHT.jpg);
 	background-attachment: fixed;
+  background-position: right;
+  background-size: cover;
 }
 
 .content {
