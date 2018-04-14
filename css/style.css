@@ -13,9 +13,11 @@ body {
 	font-size: 20rem;
 }
 
-.lower {
+#lower {
 	font-size: .8rem;
-} .lLeft {
+}
+
+.lLeft {
 	text-align: left;
 } .lCenter {
 	text-align: center;
@@ -23,11 +25,16 @@ body {
 	text-align: right;
 }
 
+#lower img {
+  height: 1rem;
+  width: auto;
+}
+
 @media only screen and (max-width: 576px) {
 	.greeting {
 		font-size: 15rem;
 	}
-	.lower {
+	#lower div {
 		text-align: center;
 	}
 }
