@@ -5,16 +5,21 @@ body {
   background-size: cover;
 }
 
-.content {
+#content {
 	background-color: rgba(255, 255, 255, .7);
 }
 
-.greeting {
+#greeting {
 	font-size: 20rem;
 }
 
 #lower {
 	font-size: .8rem;
+}
+
+#lower img {
+  height: 1rem;
+  width: auto;
 }
 
 .lLeft {
@@ -25,13 +30,8 @@ body {
 	text-align: right;
 }
 
-#lower img {
-  height: 1rem;
-  width: auto;
-}
-
 @media only screen and (max-width: 576px) {
-	.greeting {
+	#greeting {
 		font-size: 15rem;
 	}
 	#lower div {
@@ -40,7 +40,7 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-	.greeting {
+	#greeting {
 		font-size: 10rem;
 	}
 }
