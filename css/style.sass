@@ -4,37 +4,38 @@ $content-background: rgba(255, 255, 255, 0.7)
 $text-secondary: #6c757d
 
 body
+
+  #content
+    .card
+      border-color: $text-secondary
+    #greeting
+      font-size: 20rem
+    background-color: $content-background
+
+  #lower
+    img
+      height: 1rem
+      width: auto
+    .lLeft
+      text-align: left
+    .lRight
+      text-align: right
+    font-size: .8rem
+
   background-image: url(../img/SHT.jpg)
   background-color: $background-color
   background-attachment: fixed
   background-position: right
   background-size: cover
 
-  #content
-    background-color: $content-background
-    .card
-      border-color: $text-secondary
-    #greeting
-      font-size: 20rem
-
-  #lower
-    font-size: .8rem
-    img
-      height: 1rem
-      width: auto
-    .lLeft
-      text-align: left
-    .lCenter
-      text-align: center
-    .lRight
-      text-align: right
-
 @media only screen and (max-width: 576px)
-  #greeting
-    font-size: 15rem
-  #lower div
-    text-align: center
+  body
+    #content #greeting
+      font-size: 15rem
+    #lower
+      .lLeft, .lRight
+        text-align: center
 
 @media only screen and (max-width: 400px)
-  #greeting
+  body #content #greeting
     font-size: 10rem
