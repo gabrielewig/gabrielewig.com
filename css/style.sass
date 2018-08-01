@@ -1,0 +1,35 @@
+body
+  background-image: url(../img/SHT.jpg)
+  background-color: #2b4758
+  background-attachment: fixed
+  background-position: right
+  background-size: cover
+  #content
+    background-color: rgba(255, 255, 255, 0.7)
+    .card
+      border-color: #6c757d
+    #greeting
+      font-size: 20rem
+  #lower
+    font-size: .8rem
+    img
+      height: 1rem
+      width: auto
+    .lLeft
+      text-align: left
+    .lCenter
+      text-align: center
+    .lRight
+      text-align: right
+
+@media only screen and (max-width: 576px)
+  body
+    #content #greeting
+      font-size: 15rem
+    #lower
+      .lLeft, .lCenter, .lRight
+        text-align: center
+
+@media only screen and (max-width: 400px)
+  body #content #greeting
+    font-size: 10rem
